@@ -1,0 +1,5 @@
+sources:
+    - where2meet
+templates:
+    - Templates
+output: where2meet/Generated
