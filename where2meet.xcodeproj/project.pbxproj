@@ -102,17 +102,15 @@
 			isa = PBXGroup;
 			children = (
 				E0733520274060B400CD5347 /* fonts */,
-				E06F9AFF274017770058AE95 /* FetchData.swift */,
-				E0358E9F273F346400032128 /* Venue.swift */,
 				E0358E6F273F33B800032128 /* AppDelegate.swift */,
+				E0FA0A92274162FB00860B59 /* yelp */,
 				E0358E71273F33B800032128 /* SceneDelegate.swift */,
+				E0FA0A91274162B900860B59 /* view */,
 				E0358E73273F33B800032128 /* ViewController.swift */,
-				E0358E75273F33B800032128 /* Main.storyboard */,
 				E0358E78273F33BA00032128 /* Assets.xcassets */,
 				E0358E7A273F33BA00032128 /* LaunchScreen.storyboard */,
 				E0358E7D273F33BA00032128 /* Info.plist */,
-				E06F9B032740251F0058AE95 /* CustomCell.xib */,
-				E0BAC35F27403152003B64B0 /* CustomCell.swift */,
+				E0FA0A93274163CE00860B59 /* cell */,
 			);
 			path = where2meet;
 			sourceTree = "<group>";
@@ -123,6 +121,32 @@
 				E0733521274060D200CD5347 /* GreggieFont.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		E0FA0A91274162B900860B59 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E0358E75273F33B800032128 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E0FA0A92274162FB00860B59 /* yelp */ = {
+			isa = PBXGroup;
+			children = (
+				E06F9AFF274017770058AE95 /* FetchData.swift */,
+				E0358E9F273F346400032128 /* Venue.swift */,
+			);
+			path = yelp;
+			sourceTree = "<group>";
+		};
+		E0FA0A93274163CE00860B59 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E06F9B032740251F0058AE95 /* CustomCell.xib */,
+				E0BAC35F27403152003B64B0 /* CustomCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
