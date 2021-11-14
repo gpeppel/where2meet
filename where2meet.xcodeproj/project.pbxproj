@@ -106,7 +106,7 @@
 				E0FA0A92274162FB00860B59 /* yelp */,
 				E0358E71273F33B800032128 /* SceneDelegate.swift */,
 				E0FA0A91274162B900860B59 /* view */,
-				E0358E73273F33B800032128 /* ViewController.swift */,
+				E0BEA574274165B700384BD2 /* controller */,
 				E0358E78273F33BA00032128 /* Assets.xcassets */,
 				E0358E7A273F33BA00032128 /* LaunchScreen.storyboard */,
 				E0358E7D273F33BA00032128 /* Info.plist */,
@@ -121,6 +121,14 @@
 				E0733521274060D200CD5347 /* GreggieFont.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		E0BEA574274165B700384BD2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0358E73273F33B800032128 /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		E0FA0A91274162B900860B59 /* view */ = {
